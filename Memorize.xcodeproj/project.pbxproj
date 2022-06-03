@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71D9BC12829380800EEAC99 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71D9BC02829380800EEAC99 /* MemoryGame.swift */; };
+		D71D9BC32829492000EEAC99 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71D9BC22829492000EEAC99 /* EmojiMemoryGame.swift */; };
 		D76F96452792E6CC007A9DF3 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76F96442792E6CC007A9DF3 /* MemorizeApp.swift */; };
-		D76F96472792E6CC007A9DF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76F96462792E6CC007A9DF3 /* ContentView.swift */; };
 		D76F96492792E6CD007A9DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76F96482792E6CD007A9DF3 /* Assets.xcassets */; };
 		D76F964C2792E6CD007A9DF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76F964B2792E6CD007A9DF3 /* Preview Assets.xcassets */; };
+		D76F965327937CF8007A9DF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76F96462792E6CC007A9DF3 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D71D9BC02829380800EEAC99 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		D71D9BC22829492000EEAC99 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		D76F96412792E6CC007A9DF3 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76F96442792E6CC007A9DF3 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		D76F96462792E6CC007A9DF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D76F96482792E6CD007A9DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D76F964B2792E6CD007A9DF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D76F965227934705007A9DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,9 @@
 		D76F96432792E6CC007A9DF3 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				D71D9BC02829380800EEAC99 /* MemoryGame.swift */,
+				D71D9BC22829492000EEAC99 /* EmojiMemoryGame.swift */,
+				D76F965227934705007A9DF3 /* Info.plist */,
 				D76F96442792E6CC007A9DF3 /* MemorizeApp.swift */,
 				D76F96462792E6CC007A9DF3 /* ContentView.swift */,
 				D76F96482792E6CD007A9DF3 /* Assets.xcassets */,
@@ -137,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D76F96472792E6CC007A9DF3 /* ContentView.swift in Sources */,
+				D71D9BC12829380800EEAC99 /* MemoryGame.swift in Sources */,
+				D76F965327937CF8007A9DF3 /* ContentView.swift in Sources */,
 				D76F96452792E6CC007A9DF3 /* MemorizeApp.swift in Sources */,
+				D71D9BC32829492000EEAC99 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +281,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memorize/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +310,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memorize/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
